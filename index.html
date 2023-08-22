@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pogoda</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="section">
+            <h1 class="title">Zadanie rekrutacyjne</h1>
+            <div class="container">
+                <div class="city-input">
+                    <h3>Wybierz miasto</h3>
+                    <select id="citySelect">
+                        <option value="" selected disabled hidden></option>
+                        <option value="kielce">Kielce</option>
+                        <option value="kraków">Kraków</option>
+                        <option value="lublin">Lublin</option>
+                    </select>
+                    <button class="search-btn" id="searchButton">Wyszukaj</button>
+                </div>
+                <div class="weather-data">
+                    <div class="current-weather">
+                        <div class="details" id="weatherDetails"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <script src="js/main.js"></script>
+    </body>
+</html>
